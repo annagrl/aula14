@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>The lord of the cakes</title>
+</head>
+
+<body>
+    <main class=container>
+        <h1> The lord of the cakes </h1>
+        <h3>Matheus Braga Dias, Phillipe Borges, Renan de Andrade, Anna Lopes, Felipe Arruda </h3>
+        <img src="./img/pngwing.com.png" alt="Logo com um bolo">
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend> Dados Pessoais </legend>
+
+                <label for="name"> Nome: </label>
+                <input type="text" name="name" id="name" placeholder="Nome Completo">
+                <label for="email"> E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <label for="tel"> Telefone: </label>
+                <input type="tel" name="tel" id="tel" placeholder="Telefone">
+
+               
+            </fieldset>
+
+            <fieldset>
+                <legend>Pedido</legend>
+                <label for="bolo"> Escolha seu pedido </label>
+
+                <select name="bolo" id="bolo">
+                    <optgroup label="Bolos Tradicionais">
+                        <option value="boloDeNada"> Bolo de Nada</option>
+                        <option value="boloDeLaranja">Bolo de Laranja</option>
+                        <option value="boloDeFuba">Bolo de Fubá</option>
+
+                    </optgroup>
+                    <optgroup label="Tortas">
+                        <option value="tortaDeChocolate"> Torta de chocolate</option>
+                        <option value="tortaHolandesa">Torta Holandesa</option>
+                        <option value="tortaDeMorango">Torta de Morango</option>
+                    </select>
+
+                    </optgroup>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Opcionais</legend>
+                
+                <input class="espaco" type="checkbox" name="embalado" id="embalado">
+                <label for="embalado">Embalado</label>
+                <input class="espaco" type="checkbox" name="vela" id="vela">
+                <label for="vela">Vela</label>
+                <input class="espaco" type="checkbox" name="descartaveis" id="descartaveis">
+                <label for="descartaveis">Descartáveis</label>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Entrega</legend>
+
+                <label for="endereco"> Endereço: </label>
+                <input type="text" id= "endereco" placeholder="Endereço"> <br>
+
+                <input class="espaco" type="radio"  name=“entrega” id=“viagem”>
+                <label for=“viagem”>Viagem</label>
+
+                <input class="espaco" type="radio"  name=“entrega” id=“retirar”>
+                <label for=“retirar”>Retirar</label> 
+
+            
+
+            </fieldset>
+
+            <button class="espaco" type="submit">Enviar pedido</button>
+            <button class="espaco" type="reset">Desistir</button>
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>

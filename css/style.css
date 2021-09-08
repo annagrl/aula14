@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgba(137, 43, 226, 0.315);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+main{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+
+}
+img{
+    width: 150px;
+    display: inline-block;
+ 
+}
+
+.container{
+    padding: 0 25%;
+  }
+  
+  fieldset{
+      border: none;
+      margin: 16px 0;
+  }
+
+  legend{
+      font-weight: bold;
+     margin: 10px 0;
+  }
+  .espaco{
+      margin: 0 8px;
+  }
